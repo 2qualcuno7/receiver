@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: receiver-pod
+  labels:
+    name: receiver-pod
+    app: nuvalence
+spec:
+  containers:
+  - name: receiver
+    image:

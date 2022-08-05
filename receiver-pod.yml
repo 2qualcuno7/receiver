@@ -8,4 +8,6 @@ metadata:
 spec:
   containers:
   - name: receiver
-    image:
+    image: 2qualcuno7/receiver
+    ports:
+    - containerPort: 8080
